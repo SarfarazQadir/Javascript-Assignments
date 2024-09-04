@@ -254,25 +254,42 @@
 
 //  Assignment No. 6 to 9
 
-document.write("<h1>Result:</h1>")
+// document.write("<h1>Result:</h1>")
 
-var a = 10;
+// var a = 10;
 
-document.write("The value of a is: "+a);
+// document.write("The value of a is: "+a);
 
-++a;
+// ++a;
 
-document.write("<br><br>The value of ++a is: "+a);
-document.write("<br>Now the value of a is: "+a);
+// document.write("<br><br>The value of ++a is: "+a);
+// document.write("<br>Now the value of a is: "+a);
 
 
-document.write("<br><br>The value of a++ is: "+a++);
-document.write("<br>Now the value of a is: "+a);
+// document.write("<br><br>The value of a++ is: "+a++);
+// document.write("<br>Now the value of a is: "+a);
 
---a;
+// --a;
 
-document.write("<br><br>The value of --a is: "+a);
-document.write("<br>Now The value of a is: "+a);
+// document.write("<br><br>The value of --a is: "+a);
+// document.write("<br>Now The value of a is: "+a);
 
-document.write("<br><br>The value of a-- is: "+a--);
-document.write("<br>Now The value of a is: "+a);
+// document.write("<br><br>The value of a-- is: "+a--);
+// document.write("<br>Now The value of a is: "+a);
+
+
+var a = 2
+var b = 1;
+
+var result = --a - --b + ++b + b--;
+
+
+document.write("a is: 1" );
+document.write("<br>b is: 2" );
+document.write("<br>Result is: "+result)
+
+
+
+
+
+
