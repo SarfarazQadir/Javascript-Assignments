@@ -252,4 +252,5 @@
 // document.write("You'll need "+total+" " +snack+" to last you until the ripe old age of "+maxage)
 
 
-//  Assignment No. 6
+//  Assignment No. 6 to 9
+
