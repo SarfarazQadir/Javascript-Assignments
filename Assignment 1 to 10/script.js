@@ -271,4 +271,8 @@ document.write("<br>Now the value of a is: "+a);
 
 --a;
 
-document.write("<br><br>The value of a++ is: "+a++);
+document.write("<br><br>The value of --a is: "+a);
+document.write("<br>Now The value of a is: "+a);
+
+document.write("<br><br>The value of a-- is: "+a--);
+document.write("<br>Now The value of a is: "+a);
