@@ -254,3 +254,10 @@
 
 //  Assignment No. 6 to 9
 
+document.write("<h1>Result:</h1>")
+
+var a = 10;
+
+
+
+
