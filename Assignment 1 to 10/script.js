@@ -278,18 +278,67 @@
 // document.write("<br>Now The value of a is: "+a);
 
 
-var a = 2
-var b = 1;
+// var a = 2
+// var b = 1;
 
-var result = --a - --b + ++b + b--;
-
-
-document.write("a is: 1" );
-document.write("<br>b is: 2" );
-document.write("<br>Result is: "+result)
+// var result = --a - --b + ++b + b--;
 
 
+// document.write("a is: 1" );
+// document.write("<br>b is: 2" );
+// document.write("<br>Result is: "+result)
 
 
+// get input from user for table print
+
+// var user = +prompt("Enter a number", 5);
+
+// for (var i = 1; i <= 10; i++) {
+//   document.write("<br>"+user + "x" + i + "=" + i * user);
+// }
+
+//Marksheet
+
+var sub1 = prompt("Enter first subject name");
+var sub2 = prompt("Enter second subject name");
+var sub3 = prompt("Enter third subject name");
+
+var mark1 = +prompt("Enter first subject marks");
+var mark2 = +prompt("Enter second subject marks");
+var mark3 = +prompt("Enter third subject marks");
+
+var total1 = 100;
+// var obtained1 = total1-mark1;
+// var obtained2 = total1-mark2;
+// var obtained3 = total1-mark3;
+
+var percentage1 = mark1/total1*100;
+var percentage2 = mark2/total1*100;
+var percentage3 = mark3/total1*100;
+
+// var total = 300;
+// var obtained = mark1+mark2+mark3;
+// var percentage = obtained/total*100;
+
+document.write(`<table border='2'>
+        <thead>
+        <th>Subject</th>
+        <th>Total Marks</th>
+        <th>Obtained Marks</th>
+        <th>Percentage</th>
+        </thead>
+        <tbody>
+        <tr>
+        <td>${sub1}</td>
+        <td>${total1}</td>
+        <td>${mark1}</td>
+        <td>${percentage1}%</td>
+        </tr>
+        </tbody>
+        </table>`);
+
+document.write(`<table border='2'><thead><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></thead><tbody><tr><td>${sub2}</td><td>${total2}</td><td>${mark2}</td><td>${percentage2}%</td></tr></tbody></table>`);
+
+document.write(`<table border='2'><thead><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></thead><tbody><tr><td>${sub3}</td><td>${total3}</td><td>${mark3}</td><td>${percentage3}%</td></tr></tbody></table>`);
 
 
